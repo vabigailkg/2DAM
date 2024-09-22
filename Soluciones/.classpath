@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CambioPaneles2/src"/>
+	<classpathentry kind="src" path="examenEvalTresSOLUCION"/>
+	<classpathentry kind="src" path="Solución 6 cambiar paneles"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

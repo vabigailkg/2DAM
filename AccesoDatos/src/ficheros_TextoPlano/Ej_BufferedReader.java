@@ -10,7 +10,7 @@ public class Ej_BufferedReader {
 
 	public static void main(String[] args) {
 		try {
-			File fic = new File("FichTexto.txt"); // delcara fichero
+			File fic = new File("FichTexto.txt"); // declara fichero
 			BufferedReader fichero = new BufferedReader(new FileReader(fic));
 
 			String linea;

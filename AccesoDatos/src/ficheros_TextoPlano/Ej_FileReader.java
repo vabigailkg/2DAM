@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Ej_FileReader {
 
 	public static void main(String[] args) throws IOException {
-		File fichero = new File("Fichero1.txt"); // delcarar fichero
+		File fichero = new File("Fichero1.txt"); // declarar fichero
 		FileReader fic = new FileReader(fichero); // crear el flujo de entrada
 		int i;
 		// se va leyendo un caracter
