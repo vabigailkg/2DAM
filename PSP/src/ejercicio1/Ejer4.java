@@ -6,18 +6,15 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Haz un programa que obtenga la dirección MAC y la muestre por pantalla
- * 
- * NOTA: Como es lo mismo que el Ejer2, hago que lo muestre línea a línea para
- * hacer algo diferente.
+ * Haz un programa que muestre los procesos en ejecución.
  */
-public class Ejer3 {
+public class Ejer4 {
 
 	public static void main(String[] args) {
 		// Le decimos que ejecute el cmd y le pasamos el comando con '/c'
-		ProcessBuilder processBuilder = new ProcessBuilder("cmd", "/c", "getmac");
+		ProcessBuilder processBuilder = new ProcessBuilder("cmd", "/c", "tasklist");
 
-		System.out.println("Ejecutando 'getmac'...");
+		System.out.println("Ejecutando 'tasklist'...");
 
 		try {
 			// Ejecuta el proceso
@@ -37,7 +34,6 @@ public class Ejer3 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 }

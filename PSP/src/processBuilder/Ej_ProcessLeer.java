@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ * Para leer y/o mostrar en pantalla la señal del proceso.
+ */
 public class Ej_ProcessLeer {
 
 	public static void main(String[] args) {

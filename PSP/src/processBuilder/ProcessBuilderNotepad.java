@@ -3,6 +3,9 @@ package processBuilder;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * Para ejecutar, parar o leer señales de procesos
+ */
 public class ProcessBuilderNotepad {
 
 	public static void main(String[] args) {

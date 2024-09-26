@@ -23,7 +23,8 @@ public class Ejer2 {
 			InputStream entrada = proceso.getInputStream();
 			System.out.println();
 
-			// Lee la entrada en ASCII, la convierte en char y la imprime 1 a 1
+			// Lee la entrada en ASCII, la convierte en char para que sea legible, la
+			// imprime 1 a 1
 			int caracter;
 			while ((caracter = entrada.read()) != -1)
 				System.out.print((char) caracter);

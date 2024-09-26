@@ -3,6 +3,9 @@ package processBuilder;
 import java.io.IOException;
 import java.io.OutputStream;
 
+/**
+ * Para escribir la señal del proceso.
+ */
 public class Ej_ProcessEscribir {
 
 	public static void main(String[] args) {
@@ -12,7 +15,7 @@ public class Ej_ProcessEscribir {
 			String dato = "DatoParaElPrograma\\n";
 			os.write(dato.getBytes());
 			os.flush();
-			er.close();
+			//er.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
