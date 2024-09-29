@@ -35,7 +35,7 @@ public class EjerA_LeerXML {
 
 	public static void main(String[] args) {
 		// Declaramos el fichero
-		String nombreFichero = "C:\\Users\\in2dm3-v\\eclipse-workspace\\Entrega_1_9\\src\\ejercicios\\cd_catalog.xml";
+		String nombreFichero = "C:\\Users\\vanes\\git\\2DAM\\Entrega_1_9\\src\\ejercicios\\cd_catalog.xml";
 
 		try {
 			// Instanciamos el fichero y los objetos para usar el xml
@@ -53,37 +53,42 @@ public class EjerA_LeerXML {
 
 			// Iteramos según las veces que se repita ese elemento
 			for (int temp = 0; temp < nList.getLength(); temp++) {
-				//
+				// Saca un nodo de la lista de nodos CD en la posición temp
 				Node nNode = nList.item(temp);
-				Element eElement = (Element) nNode;
 
-				// Obtenemos los nodos que usaremos por su nametag
-				NodeList nListCD = doc.getElementsByTagName("\nCD");
-				Node nTitulo = doc.getElementsByTagName("TITLE").item(0);
-				Node nArtista = doc.getElementsByTagName("ARTIST").item(0);
-				Node nPais = doc.getElementsByTagName("COUNTRY").item(0);
-				Node nCompañia = doc.getElementsByTagName("COMPANY").item(0);
-				Node nPrecio = doc.getElementsByTagName("PRICE").item(0);
-				Node nAño = doc.getElementsByTagName("YEAR").item(0);
-				System.out.println("\n---------");
+				// Verifica si el nodo es un elemento XML
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+					// Convierte el nodo en element para sacar su contenido
+					Element cd = (Element) nNode;
 
-				// Sacamos el contenido de los elementos en un String (texto)
-				String contenidoTitulo = (nTitulo.getTextContent());
-				String contenidoArtista = (nArtista.getTextContent());
-				String contenidoPais = (nPais.getTextContent());
-				String contenidoCompañia = (nCompañia.getTextContent());
-				String contenidoPrecio = (nPrecio.getTextContent());
-				String contenidoAño = (nAño.getTextContent());
+					// Obtenemos los nodos que usaremos por su nametag
+					NodeList nListCD = cd.getElementsByTagName("\nCD");
+					Node nTitulo = cd.getElementsByTagName("TITLE").item(0);
+					Node nArtista = cd.getElementsByTagName("ARTIST").item(0);
+					Node nPais = cd.getElementsByTagName("COUNTRY").item(0);
+					Node nCompañia = cd.getElementsByTagName("COMPANY").item(0);
+					Node nPrecio = cd.getElementsByTagName("PRICE").item(0);
+					Node nAño = cd.getElementsByTagName("YEAR").item(0);
 
-				// Creamos el formato
-				System.out.print("CD: ");
-				System.out.print("\n   Título: " + contenidoTitulo);
-				System.out.print("\n   Artista: " + contenidoArtista);
-				System.out.print("\n   País: " + contenidoPais);
-				System.out.print("\n   Compañía: " + contenidoCompañia);
-				System.out.print("\n   Precio: " + contenidoPrecio);
-				System.out.print("\n   Año: " + contenidoAño);
+					// Sacamos el contenido de los elementos en un String (texto)
+					String contenidoTitulo = (nTitulo.getTextContent());
+					String contenidoArtista = (nArtista.getTextContent());
+					String contenidoPais = (nPais.getTextContent());
+					String contenidoCompañia = (nCompañia.getTextContent());
+					String contenidoPrecio = (nPrecio.getTextContent());
+					String contenidoAño = (nAño.getTextContent());
 
+					// Creamos el formato
+					System.out.println("\n---------");
+					System.out.print("CD: " + (temp + 1)); // mostrar el nº de CD
+					System.out.print("\n   Título: " + contenidoTitulo);
+					System.out.print("\n   Artista: " + contenidoArtista);
+					System.out.print("\n   País: " + contenidoPais);
+					System.out.print("\n   Compañía: " + contenidoCompañia);
+					System.out.print("\n   Precio: " + contenidoPrecio);
+					System.out.print("\n   Año: " + contenidoAño);
+
+				}
 			}
 
 		} catch (SAXException | IOException | ParserConfigurationException e) {

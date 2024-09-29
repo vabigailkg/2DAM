@@ -23,7 +23,7 @@ public class ModificarDOM {
 	public static void main(String[] args) {
 
 		try {
-			String nombreFichero = "Prueba.xml";
+			String nombreFichero = "coches.xml";
 			File inputFile = new File(nombreFichero);
 			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();

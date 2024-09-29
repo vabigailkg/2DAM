@@ -1,211 +1,419 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
-  <CD>
-    <TITLE>Empire Burlesque</TITLE>
-    <ARTIST>Bob Dylan</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Columbia</COMPANY>
-    <PRICE>10.90</PRICE>
-    <YEAR>1985</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Hide your heart</TITLE>
-    <ARTIST>Bonnie Tyler</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>CBS Records</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1988</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Greatest Hits</TITLE>
-    <ARTIST>Dolly Parton</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>RCA</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1982</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Still got the blues</TITLE>
-    <ARTIST>Gary Moore</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Virgin records</COMPANY>
-    <PRICE>10.20</PRICE>
-    <YEAR>1990</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Eros</TITLE>
-    <ARTIST>Eros Ramazzotti</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>BMG</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1997</YEAR>
-  </CD>
-  <CD>
-    <TITLE>One night only</TITLE>
-    <ARTIST>Bee Gees</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Polydor</COMPANY>
-    <PRICE>10.90</PRICE>
-    <YEAR>1998</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Sylvias Mother</TITLE>
-    <ARTIST>Dr.Hook</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>CBS</COMPANY>
-    <PRICE>8.10</PRICE>
-    <YEAR>1973</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Maggie May</TITLE>
-    <ARTIST>Rod Stewart</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Pickwick</COMPANY>
-    <PRICE>8.50</PRICE>
-    <YEAR>1990</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Romanza</TITLE>
-    <ARTIST>Andrea Bocelli</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Polydor</COMPANY>
-    <PRICE>10.80</PRICE>
-    <YEAR>1996</YEAR>
-  </CD>
-  <CD>
-    <TITLE>When a man loves a woman</TITLE>
-    <ARTIST>Percy Sledge</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Atlantic</COMPANY>
-    <PRICE>8.70</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Black angel</TITLE>
-    <ARTIST>Savage Rose</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Mega</COMPANY>
-    <PRICE>10.90</PRICE>
-    <YEAR>1995</YEAR>
-  </CD>
-  <CD>
-    <TITLE>1999 Grammy Nominees</TITLE>
-    <ARTIST>Many</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Grammy</COMPANY>
-    <PRICE>10.20</PRICE>
-    <YEAR>1999</YEAR>
-  </CD>
-  <CD>
-    <TITLE>For the good times</TITLE>
-    <ARTIST>Kenny Rogers</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Mucik Master</COMPANY>
-    <PRICE>8.70</PRICE>
-    <YEAR>1995</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Big Willie style</TITLE>
-    <ARTIST>Will Smith</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Columbia</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1997</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Tupelo Honey</TITLE>
-    <ARTIST>Van Morrison</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Polydor</COMPANY>
-    <PRICE>8.20</PRICE>
-    <YEAR>1971</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Soulsville</TITLE>
-    <ARTIST>Jorn Hoel</ARTIST>
-    <COUNTRY>Norway</COUNTRY>
-    <COMPANY>WEA</COMPANY>
-    <PRICE>7.90</PRICE>
-    <YEAR>1996</YEAR>
-  </CD>
-  <CD>
-    <TITLE>The very best of</TITLE>
-    <ARTIST>Cat Stevens</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Island</COMPANY>
-    <PRICE>8.90</PRICE>
-    <YEAR>1990</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Stop</TITLE>
-    <ARTIST>Sam Brown</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>A and M</COMPANY>
-    <PRICE>8.90</PRICE>
-    <YEAR>1988</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Bridge of Spies</TITLE>
-    <ARTIST>T'Pau</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Siren</COMPANY>
-    <PRICE>7.90</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Private Dancer</TITLE>
-    <ARTIST>Tina Turner</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>Capitol</COMPANY>
-    <PRICE>8.90</PRICE>
-    <YEAR>1983</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Midt om natten</TITLE>
-    <ARTIST>Kim Larsen</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Medley</COMPANY>
-    <PRICE>7.80</PRICE>
-    <YEAR>1983</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Pavarotti Gala Concert</TITLE>
-    <ARTIST>Luciano Pavarotti</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>DECCA</COMPANY>
-    <PRICE>9.90</PRICE>
-    <YEAR>1991</YEAR>
-  </CD>
-  <CD>
-    <TITLE>The dock of the bay</TITLE>
-    <ARTIST>Otis Redding</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>Stax Records</COMPANY>
-    <PRICE>7.90</PRICE>
-    <YEAR>1968</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Picture book</TITLE>
-    <ARTIST>Simply Red</ARTIST>
-    <COUNTRY>EU</COUNTRY>
-    <COMPANY>Elektra</COMPANY>
-    <PRICE>7.20</PRICE>
-    <YEAR>1985</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Red</TITLE>
-    <ARTIST>The Communards</ARTIST>
-    <COUNTRY>UK</COUNTRY>
-    <COMPANY>London</COMPANY>
-    <PRICE>7.80</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
-  <CD>
-    <TITLE>Unchain my heart</TITLE>
-    <ARTIST>Joe Cocker</ARTIST>
-    <COUNTRY>USA</COUNTRY>
-    <COMPANY>EMI</COMPANY>
-    <PRICE>8.20</PRICE>
-    <YEAR>1987</YEAR>
-  </CD>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><CATALOG>
+
+	<CD cd="1">
+
+		<TITLE cd="1">Empire Burlesque</TITLE>
+
+		<ARTIST cd="1">Bob Dylan</ARTIST>
+
+		<COUNTRY cd="1">USA</COUNTRY>
+
+		<COMPANY cd="1">Columbia</COMPANY>
+
+		<PRICE cd="1">10.90</PRICE>
+
+		<YEAR cd="1">1985</YEAR>
+
+	</CD>
+
+	<CD cd="2">
+
+		<TITLE cd="2">Hide your heart</TITLE>
+
+		<ARTIST cd="2">Bonnie Tyler</ARTIST>
+
+		<COUNTRY cd="2">UK</COUNTRY>
+
+		<COMPANY cd="2">CBS Records</COMPANY>
+
+		<PRICE cd="2">9.90</PRICE>
+
+		<YEAR cd="2">1988</YEAR>
+
+	</CD>
+
+	<CD cd="3">
+
+		<TITLE cd="3">Greatest Hits</TITLE>
+
+		<ARTIST cd="3">Dolly Parton</ARTIST>
+
+		<COUNTRY cd="3">USA</COUNTRY>
+
+		<COMPANY cd="3">RCA</COMPANY>
+
+		<PRICE cd="3">9.90</PRICE>
+
+		<YEAR cd="3">1982</YEAR>
+
+	</CD>
+
+	<CD cd="4">
+
+		<TITLE cd="4">Still got the blues</TITLE>
+
+		<ARTIST cd="4">Gary Moore</ARTIST>
+
+		<COUNTRY cd="4">UK</COUNTRY>
+
+		<COMPANY cd="4">Virgin records</COMPANY>
+
+		<PRICE cd="4">10.20</PRICE>
+
+		<YEAR cd="4">1990</YEAR>
+
+	</CD>
+
+	<CD cd="5">
+
+		<TITLE cd="5">Eros</TITLE>
+
+		<ARTIST cd="5">Eros Ramazzotti</ARTIST>
+
+		<COUNTRY cd="5">EU</COUNTRY>
+
+		<COMPANY cd="5">BMG</COMPANY>
+
+		<PRICE cd="5">9.90</PRICE>
+
+		<YEAR cd="5">1997</YEAR>
+
+	</CD>
+
+	<CD cd="6">
+
+		<TITLE cd="6">One night only</TITLE>
+
+		<ARTIST cd="6">Bee Gees</ARTIST>
+
+		<COUNTRY cd="6">UK</COUNTRY>
+
+		<COMPANY cd="6">Polydor</COMPANY>
+
+		<PRICE cd="6">10.90</PRICE>
+
+		<YEAR cd="6">1998</YEAR>
+
+	</CD>
+
+	<CD cd="7">
+
+		<TITLE cd="7">Sylvias Mother</TITLE>
+
+		<ARTIST cd="7">Dr.Hook</ARTIST>
+
+		<COUNTRY cd="7">UK</COUNTRY>
+
+		<COMPANY cd="7">CBS</COMPANY>
+
+		<PRICE cd="7">8.10</PRICE>
+
+		<YEAR cd="7">1973</YEAR>
+
+	</CD>
+
+	<CD cd="8">
+
+		<TITLE cd="8">Maggie May</TITLE>
+
+		<ARTIST cd="8">Rod Stewart</ARTIST>
+
+		<COUNTRY cd="8">UK</COUNTRY>
+
+		<COMPANY cd="8">Pickwick</COMPANY>
+
+		<PRICE cd="8">8.50</PRICE>
+
+		<YEAR cd="8">1990</YEAR>
+
+	</CD>
+
+	<CD cd="9">
+
+		<TITLE cd="9">Romanza</TITLE>
+
+		<ARTIST cd="9">Andrea Bocelli</ARTIST>
+
+		<COUNTRY cd="9">EU</COUNTRY>
+
+		<COMPANY cd="9">Polydor</COMPANY>
+
+		<PRICE cd="9">10.80</PRICE>
+
+		<YEAR cd="9">1996</YEAR>
+
+	</CD>
+
+	<CD cd="10">
+
+		<TITLE cd="10">When a man loves a woman</TITLE>
+
+		<ARTIST cd="10">Percy Sledge</ARTIST>
+
+		<COUNTRY cd="10">USA</COUNTRY>
+
+		<COMPANY cd="10">Atlantic</COMPANY>
+
+		<PRICE cd="10">8.70</PRICE>
+
+		<YEAR cd="10">1987</YEAR>
+
+	</CD>
+
+	<CD cd="11">
+
+		<TITLE cd="11">Black angel</TITLE>
+
+		<ARTIST cd="11">Savage Rose</ARTIST>
+
+		<COUNTRY cd="11">EU</COUNTRY>
+
+		<COMPANY cd="11">Mega</COMPANY>
+
+		<PRICE cd="11">10.90</PRICE>
+
+		<YEAR cd="11">1995</YEAR>
+
+	</CD>
+
+	<CD cd="12">
+
+		<TITLE cd="12">1999 Grammy Nominees</TITLE>
+
+		<ARTIST cd="12">Many</ARTIST>
+
+		<COUNTRY cd="12">USA</COUNTRY>
+
+		<COMPANY cd="12">Grammy</COMPANY>
+
+		<PRICE cd="12">10.20</PRICE>
+
+		<YEAR cd="12">1999</YEAR>
+
+	</CD>
+
+	<CD cd="13">
+
+		<TITLE cd="13">For the good times</TITLE>
+
+		<ARTIST cd="13">Kenny Rogers</ARTIST>
+
+		<COUNTRY cd="13">UK</COUNTRY>
+
+		<COMPANY cd="13">Mucik Master</COMPANY>
+
+		<PRICE cd="13">8.70</PRICE>
+
+		<YEAR cd="13">1995</YEAR>
+
+	</CD>
+
+	<CD cd="14">
+
+		<TITLE cd="14">Big Willie style</TITLE>
+
+		<ARTIST cd="14">Will Smith</ARTIST>
+
+		<COUNTRY cd="14">USA</COUNTRY>
+
+		<COMPANY cd="14">Columbia</COMPANY>
+
+		<PRICE cd="14">9.90</PRICE>
+
+		<YEAR cd="14">1997</YEAR>
+
+	</CD>
+
+	<CD cd="15">
+
+		<TITLE cd="15">Tupelo Honey</TITLE>
+
+		<ARTIST cd="15">Van Morrison</ARTIST>
+
+		<COUNTRY cd="15">UK</COUNTRY>
+
+		<COMPANY cd="15">Polydor</COMPANY>
+
+		<PRICE cd="15">8.20</PRICE>
+
+		<YEAR cd="15">1971</YEAR>
+
+	</CD>
+
+	<CD cd="16">
+
+		<TITLE cd="16">Soulsville</TITLE>
+
+		<ARTIST cd="16">Jorn Hoel</ARTIST>
+
+		<COUNTRY cd="16">Norway</COUNTRY>
+
+		<COMPANY cd="16">WEA</COMPANY>
+
+		<PRICE cd="16">7.90</PRICE>
+
+		<YEAR cd="16">1996</YEAR>
+
+	</CD>
+
+	<CD cd="17">
+
+		<TITLE cd="17">The very best of</TITLE>
+
+		<ARTIST cd="17">Cat Stevens</ARTIST>
+
+		<COUNTRY cd="17">UK</COUNTRY>
+
+		<COMPANY cd="17">Island</COMPANY>
+
+		<PRICE cd="17">8.90</PRICE>
+
+		<YEAR cd="17">1990</YEAR>
+
+	</CD>
+
+	<CD cd="18">
+
+		<TITLE cd="18">Stop</TITLE>
+
+		<ARTIST cd="18">Sam Brown</ARTIST>
+
+		<COUNTRY cd="18">UK</COUNTRY>
+
+		<COMPANY cd="18">A and M</COMPANY>
+
+		<PRICE cd="18">8.90</PRICE>
+
+		<YEAR cd="18">1988</YEAR>
+
+	</CD>
+
+	<CD cd="19">
+
+		<TITLE cd="19">Bridge of Spies</TITLE>
+
+		<ARTIST cd="19">T'Pau</ARTIST>
+
+		<COUNTRY cd="19">UK</COUNTRY>
+
+		<COMPANY cd="19">Siren</COMPANY>
+
+		<PRICE cd="19">7.90</PRICE>
+
+		<YEAR cd="19">1987</YEAR>
+
+	</CD>
+
+	<CD cd="20">
+
+		<TITLE cd="20">Private Dancer</TITLE>
+
+		<ARTIST cd="20">Tina Turner</ARTIST>
+
+		<COUNTRY cd="20">UK</COUNTRY>
+
+		<COMPANY cd="20">Capitol</COMPANY>
+
+		<PRICE cd="20">8.90</PRICE>
+
+		<YEAR cd="20">1983</YEAR>
+
+	</CD>
+
+	<CD cd="21">
+
+		<TITLE cd="21">Midt om natten</TITLE>
+
+		<ARTIST cd="21">Kim Larsen</ARTIST>
+
+		<COUNTRY cd="21">EU</COUNTRY>
+
+		<COMPANY cd="21">Medley</COMPANY>
+
+		<PRICE cd="21">7.80</PRICE>
+
+		<YEAR cd="21">1983</YEAR>
+
+	</CD>
+
+	<CD cd="22">
+
+		<TITLE cd="22">Pavarotti Gala Concert</TITLE>
+
+		<ARTIST cd="22">Luciano Pavarotti</ARTIST>
+
+		<COUNTRY cd="22">UK</COUNTRY>
+
+		<COMPANY cd="22">DECCA</COMPANY>
+
+		<PRICE cd="22">9.90</PRICE>
+
+		<YEAR cd="22">1991</YEAR>
+
+	</CD>
+
+	<CD cd="23">
+
+		<TITLE cd="23">The dock of the bay</TITLE>
+
+		<ARTIST cd="23">Otis Redding</ARTIST>
+
+		<COUNTRY cd="23">USA</COUNTRY>
+
+		<COMPANY cd="23">Stax Records</COMPANY>
+
+		<PRICE cd="23">7.90</PRICE>
+
+		<YEAR cd="23">1968</YEAR>
+
+	</CD>
+
+	<CD cd="24">
+
+		<TITLE cd="24">Picture book</TITLE>
+
+		<ARTIST cd="24">Simply Red</ARTIST>
+
+		<COUNTRY cd="24">EU</COUNTRY>
+
+		<COMPANY cd="24">Elektra</COMPANY>
+
+		<PRICE cd="24">7.20</PRICE>
+
+		<YEAR cd="24">1985</YEAR>
+
+	</CD>
+
+	<CD cd="25">
+
+		<TITLE cd="25">Red</TITLE>
+
+		<ARTIST cd="25">The Communards</ARTIST>
+
+		<COUNTRY cd="25">UK</COUNTRY>
+
+		<COMPANY cd="25">London</COMPANY>
+
+		<PRICE cd="25">7.80</PRICE>
+
+		<YEAR cd="25">1987</YEAR>
+
+	</CD>
+
+	<CD cd="26">
+
+		<TITLE cd="26">Unchain my heart</TITLE>
+
+		<ARTIST cd="26">Joe Cocker</ARTIST>
+
+		<COUNTRY cd="26">USA</COUNTRY>
+
+		<COMPANY cd="26">EMI</COMPANY>
+
+		<PRICE cd="26">8.20</PRICE>
+
+		<YEAR cd="26">1987</YEAR>
+
+	</CD>
+
 </CATALOG>
