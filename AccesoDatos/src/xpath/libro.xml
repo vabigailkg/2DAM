@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro>
+        <titulo>Ez da inor</titulo>
+        <autor fechaNacimiento="1975-05-30">Iban Zaldua</autor>
+        <anno_publicacion>2004</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-9746-322-6</isbn>
+    </libro>
+    <libro>
+        <titulo>Obabakoak</titulo>
+        <autor fechaNacimiento="1936-07-15">Bernardo Atxaga</autor>
+        <anno_publicacion>1988</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-7801-781-8</isbn>
+    </libro>
+    <libro>
+        <titulo>Haurra</titulo>
+        <autor fechaNacimiento="1968-11-01">Miren Agur Meabe</autor>
+        <anno_publicacion>2011</anno_publicacion>
+        <genero>Poesía</genero>
+        <isbn>978-84-15659-08-5</isbn>
+    </libro>
+    <libro>
+        <titulo>Gauaren semea</titulo>
+        <autor fechaNacimiento="1951-02-16">Xabier Lizardi</autor>
+        <anno_publicacion>1994</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-232-0322-1</isbn>
+    </libro>
+    <libro>
+        <titulo>Amaren eskuak</titulo>
+        <autor fechaNacimiento="1982-09-05">Karmele Jaio</autor>
+        <anno_publicacion>2009</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-9746-569-5</isbn>
+    </libro>
+    <libro>
+        <titulo>Harri eta oihal</titulo>
+        <autor fechaNacimiento="1979-03-28">Unai Elorriaga</autor>
+        <anno_publicacion>2006</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-96059-75-8</isbn>
+    </libro>
+    <libro>
+        <titulo>Hizkuntzaren irudiak</titulo>
+        <autor fechaNacimiento="1954-04-12">Koldo Izagirre</autor>
+        <anno_publicacion>2003</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-9746-650-0</isbn>
+    </libro>
+    <libro>
+        <titulo>Gizakiaren irudiak</titulo>
+        <autor fechaNacimiento="1969-06-20">Iñigo Aranburu</autor>
+        <anno_publicacion>2015</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-9006-524-8</isbn>
+    </libro>
+    <libro>
+        <titulo>Lehen irakurketa</titulo>
+        <autor fechaNacimiento="1978-12-10">Jokin Mitxelena</autor>
+        <anno_publicacion>2010</anno_publicacion>
+        <genero>Infantil</genero>
+        <isbn>978-84-15060-23-5</isbn>
+    </libro>
+    <libro>
+        <titulo>Itxaropenaren itsasoa</titulo>
+        <autor fechaNacimiento="1983-01-21">Eider Rodriguez</autor>
+        <anno_publicacion>2017</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-948427-7-5</isbn>
+    </libro>
+    <libro>
+        <titulo>Azken argia</titulo>
+        <autor fechaNacimiento="1955-10-10">Iñaki Zubeldia</autor>
+        <anno_publicacion>1999</anno_publicacion>
+        <genero>Ficción</genero>
+        <isbn>978-84-235-1546-4</isbn>
+    </libro>
+</libros>
