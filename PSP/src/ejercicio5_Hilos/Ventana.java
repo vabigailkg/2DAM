@@ -16,16 +16,21 @@ public class Ventana extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	
+	// Creamos etiquetas para mostrar el contador
+    JLabel lbl0Hil_1 = new JLabel("0");
+    JLabel lbl0Hil_2 = new JLabel("0");
+    JLabel lbl0Hil_3 = new JLabel("0");
 
 	// Creamos hilos
-	HiloContador hilo1 = new HiloContador("Hilo1", 1);
-	HiloContador hilo2 = new HiloContador("Hilo2", 1);
-	HiloContador hilo3 = new HiloContador("Hilo3", 1);
+	HiloContador hilo1 = new HiloContador("Hilo1", 0, lbl0Hil_1);
+	HiloContador hilo2 = new HiloContador("Hilo2", 0, lbl0Hil_2);
+	HiloContador hilo3 = new HiloContador("Hilo3", 0, lbl0Hil_3);
 	
 	// Prioridad de cada hilo
-	int prioridad1 =
-	int prioridad2 =
-	int prioridad3 =
+	int prioridad1 = 0;
+	int prioridad2 = 0;
+	int prioridad3 = 0;
 
 	/**
 	 * Launch the application.
@@ -48,35 +53,50 @@ public class Ventana extends JFrame {
 	 * Create the frame.
 	 */
 	public Ventana() {
-
-		// Arrancamos hilos
-		hilo1.start();
-		hilo2.start();
-		hilo3.start();
-
-		try {
-			// Juntos para que sólo muestre el mensaje cuando acaben
-			hilo1.join();
-			hilo2.join();
-			hilo3.join();
-		} catch (InterruptedException e) {
-		}
-
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 640, 480);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setBackground(Color.pink);
-
+		
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		
+		// Colocar los labels del contador
+        lbl0Hil_1.setBounds(157, 231, 46, 14);  // Posición para el contador del hilo 1
+        contentPane.add(lbl0Hil_1);
 
+        lbl0Hil_2.setBounds(157, 273, 46, 14);  // Posición para el contador del hilo 2
+        contentPane.add(lbl0Hil_2);
+
+        lbl0Hil_3.setBounds(157, 317, 46, 14);  // Posición para el contador del hilo 3
+        contentPane.add(lbl0Hil_3);
+        
+		// Arrancamos hilos
+		hilo1.start();
+		hilo2.start();
+		hilo3.start();
+        
+		JLabel lbl0Pri_1 = new JLabel("0");
+		lbl0Pri_1.setBounds(434, 231, 46, 14);
+		contentPane.add(lbl0Pri_1);
+
+		JLabel lbl0Pri_2 = new JLabel("0");
+		lbl0Pri_2.setBounds(434, 273, 46, 14);
+		contentPane.add(lbl0Pri_2);
+
+		JLabel lbl0Pri_3 = new JLabel("0");
+		lbl0Pri_3.setBounds(434, 317, 46, 14);
+		contentPane.add(lbl0Pri_3);
+		
 		JButton btnGuion1 = new JButton("--");
 		btnGuion1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				hilo1.setPriority(Thread.MIN_PRIORITY);
-				
 				System.out.println("El hilo 1 tiene ahora prioridad mínima.");
+				
+				// Actualizar el JLabel con la nueva prioridad
+		        lbl0Pri_1.setText(String.valueOf(hilo1.getPriority()));
 			}
 		});
 		btnGuion1.setBounds(90, 41, 89, 23);
@@ -86,8 +106,10 @@ public class Ventana extends JFrame {
 		btnGuion2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				hilo2.setPriority(Thread.MIN_PRIORITY);
-				
 				System.out.println("El hilo 2 tiene ahora prioridad mínima.");
+				
+				// Actualizar el JLabel con la nueva prioridad
+				lbl0Pri_2.setText(String.valueOf(hilo2.getPriority()));
 			}
 		});
 		btnGuion2.setBounds(90, 75, 89, 23);
@@ -97,8 +119,10 @@ public class Ventana extends JFrame {
 		btnGuion3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				hilo3.setPriority(Thread.MIN_PRIORITY);
-				
 				System.out.println("El hilo 3 tiene ahora prioridad mínima.");
+				
+				// Actualizar el JLabel con la nueva prioridad
+		        lbl0Pri_3.setText(String.valueOf(hilo3.getPriority()));
 			}
 		});
 		btnGuion3.setBounds(90, 109, 89, 23);
@@ -141,8 +165,10 @@ public class Ventana extends JFrame {
 		btnSuma1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				hilo1.setPriority(Thread.MAX_PRIORITY);
-				
 				System.out.println("El hilo 1 tiene ahora prioridad máxima.");
+				
+				// Actualizar el JLabel con la nueva prioridad
+		        lbl0Pri_1.setText(String.valueOf(hilo1.getPriority()));
 			}
 		});
 		btnSuma1.setBounds(371, 41, 89, 23);
@@ -152,8 +178,10 @@ public class Ventana extends JFrame {
 		btnSuma2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				hilo2.setPriority(Thread.MAX_PRIORITY);
-				
 				System.out.println("El hilo 2 tiene ahora prioridad máxima.");
+				
+				// Actualizar el JLabel con la nueva prioridad
+		        lbl0Pri_2.setText(String.valueOf(hilo2.getPriority()));
 			}
 		});
 		btnSuma2.setBounds(371, 75, 89, 23);
@@ -163,8 +191,10 @@ public class Ventana extends JFrame {
 		btnSuma3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				hilo3.setPriority(Thread.MAX_PRIORITY);
-				
 				System.out.println("El hilo 3 tiene ahora prioridad máxima.");
+				
+				// Actualizar el JLabel con la nueva prioridad
+		        lbl0Pri_3.setText(String.valueOf(hilo3.getPriority()));
 			}
 		});
 		btnSuma3.setBounds(371, 109, 89, 23);
@@ -208,30 +238,6 @@ public class Ventana extends JFrame {
 		JLabel lblPrioridad3 = new JLabel("Pri: ");
 		lblPrioridad3.setBounds(397, 317, 46, 14);
 		contentPane.add(lblPrioridad3);
-
-		JLabel lbl0Hil_1 = new JLabel("0");
-		lbl0Hil_1.setBounds(157, 231, 46, 14);
-		contentPane.add(lbl0Hil_1);
-
-		JLabel lbl0Hil_2 = new JLabel("0");
-		lbl0Hil_2.setBounds(157, 273, 46, 14);
-		contentPane.add(lbl0Hil_2);
-
-		JLabel lbl0Hil_3 = new JLabel("0");
-		lbl0Hil_3.setBounds(157, 317, 46, 14);
-		contentPane.add(lbl0Hil_3);
-
-		JLabel lbl0Pri_1 = new JLabel(adsfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
-		lbl0Pri_1.setBounds(434, 231, 46, 14);
-		contentPane.add(lbl0Pri_1);
-
-		JLabel lbl0Pri_2 = new JLabel(adsfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
-		lbl0Pri_2.setBounds(434, 273, 46, 14);
-		contentPane.add(lbl0Pri_2);
-
-		JLabel lbl0Pri_3 = new JLabel(adsfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa);
-		lbl0Pri_3.setBounds(434, 317, 46, 14);
-		contentPane.add(lbl0Pri_3);
 	}
 
 }
